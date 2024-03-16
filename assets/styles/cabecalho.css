@@ -1,0 +1,48 @@
+/* CABEÇALHO */
+
+.container .cabecalho{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
+
+.container .cabecalho .icone{
+  width: 24px;
+}
+
+
+.container .cabecalho .cabecalho-menu,
+.container .cabecalho .cabecalho-usuario{
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .cabecalho .cabecalho-busca{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container .cabecalho .cabecalho-busca input{
+  height: 31px;
+  width: 346px;
+  border: 1px solid #dfdfdf;
+}
+
+.container .cabecalho .cabecalho-busca .icone-lupa{
+  border: 1px solid #f2f2f2;
+  background-color: #f8f8f8;
+  text-align: center;
+  width: 40px;
+}
+
+
+.container .cabecalho .cabecalho-usuario #image-canal{
+  width: 38px;
+}
+
